@@ -1,22 +1,23 @@
 .repositoriesWrapper {
   width: 100%;
   max-width: 55rem;
+  background: #f6f8fa;
 }
-
+.repositoriesWrapper_title {
+  padding: 0 32px;
+}
 .repoContainer {
-  background: #ffffff;
   border-radius: 6px;
-  max-width: 55rem;
+  max-width: 90%;
   margin-bottom: 24px;
   min-height: 7rem;
   height: 100%;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.information {
+.information {  
   padding-left: 32px;
   padding-right: 32px;
 }
@@ -33,9 +34,15 @@
   white-space: nowrap;
 }
 
+
 .name a {
-  color: #0064eb;
+  color: #24292f;
   text-decoration: none;
+  transition: all 0.2s;
+}
+.name a:hover {
+  color: #8250df;
+  text-decoration: underline ;
 }
 
 .description {
@@ -43,7 +50,8 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #000000;
+  color: #24292f;
+  cursor: default;
 }
 
 .paginator {

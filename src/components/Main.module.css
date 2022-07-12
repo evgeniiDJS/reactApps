@@ -6,7 +6,6 @@ body {
 }
 
 .mainWrapper {
-  background: #e5e5e5;
   display: flex;
   padding-left: 3.5rem;
   padding-right: 3.5rem;
@@ -21,7 +20,7 @@ body {
 }
 
 .startScreenWrapper {
-  background: #e5e5e5;
+  background: #f6f8fa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +30,7 @@ body {
 }
 
 .notFoundWrapper {
-  background: #e5e5e5;
+  background: #f6f8fa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +40,7 @@ body {
 }
 
 .emptyRepoWrapper {
-  background: #e5e5e5;
+  background: #f6f8fa;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,5 +1,5 @@
 .header {
-  background-color: #0064eb;
+  background-color: #24292f;
   display: flex;
   align-items: center;
   width: 100%;
@@ -20,9 +20,12 @@ input {
 
 .form {
   position: relative;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 1px solid #aca4a4;
+  border-radius: 5px;
   max-width: 442px;
   width: 33%;
+  opacity: 0.4;
+  transition: all 0.2s;
 }
 
 .form::before {
@@ -32,5 +35,24 @@ input {
   top: 0;
   bottom: 0;
   width: 18px;
-  background: url("../assets/search.svg") center / contain no-repeat;
+  background: url("../assets/search.png") center / contain no-repeat;
 }
+
+.form:hover {
+  opacity: 1;
+}
+
+
+.form_input {
+  background-color: #24292f;
+  max-width: 100px;
+  height: 15px;
+  color: #ffff;
+  cursor: default;
+}
+
+.form_input::-webkit-input-placeholder { 
+  color: #aca4a4;
+  font-size: 15px;
+  font-family: 'Ibarra Real Nova', serif;
+ }

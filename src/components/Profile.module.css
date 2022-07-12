@@ -17,6 +17,7 @@
   font-size: 1.6rem;
   line-height: 130%;
   padding-bottom: 12px;
+  cursor: default;
 }
 
 .login {

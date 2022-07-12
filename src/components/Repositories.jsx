@@ -12,7 +12,7 @@ const Repositories = (props) => {
   return (
     <div className={style.repositoriesWrapper}>
       <div>
-        <h2>Repositories ({props.totalRepoCount})</h2>
+        <h2 className={style.repositoriesWrapper_title}>Repositories ({props.totalRepoCount})</h2>
         {props.repositories.map((u) => {
           return (
             <div className={style.repoContainer} key={u.id}>
